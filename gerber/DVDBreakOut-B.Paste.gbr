@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
+%TF.CreationDate,2018-10-07T23:02:28+08:00*%
+%TF.ProjectId,DVDBreakOut,445644427265616B4F75742E6B696361,rev?*%
+%TF.FileFunction,Paste,Bot*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Sun Oct  7 23:02:28 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.100000*%
+G04 APERTURE END LIST*
+D10*
+M02*

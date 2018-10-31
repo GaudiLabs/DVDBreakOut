@@ -1,0 +1,673 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:GaudiLabsPartsLibrary
+LIBS:DVDBreakOut-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MountPad3 X1
+U 1 1 586D0363
+P 4850 9050
+F 0 "X1" H 4879 9127 60  0000 L CNN
+F 1 "MountPad3" H 4879 9021 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MountingHoleM3" H 4850 9050 60  0001 C CNN
+F 3 "" H 4850 9050 60  0000 C CNN
+	1    4850 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MountPad3 X2
+U 1 1 586D042B
+P 4850 9250
+F 0 "X2" H 4879 9327 60  0000 L CNN
+F 1 "MountPad3" H 4879 9221 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MountingHoleM3" H 4850 9250 60  0001 C CNN
+F 3 "" H 4850 9250 60  0000 C CNN
+	1    4850 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV2
+U 1 1 586D07D7
+P 1900 9400
+F 0 "RV2" H 1830 9446 50  0000 R CNN
+F 1 "POT" H 1830 9355 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POT_OvalPads" H 1900 9400 50  0001 C CNN
+F 3 "" H 1900 9400 50  0000 C CNN
+	1    1900 9400
+	1    0    0    1   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 586D0B6B
+P 1300 9400
+F 0 "RV1" H 1230 9446 50  0000 R CNN
+F 1 "POT" H 1230 9355 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POT_OvalPads" H 1300 9400 50  0001 C CNN
+F 3 "" H 1300 9400 50  0000 C CNN
+	1    1300 9400
+	1    0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 586D4A4B
+P 5150 4300
+F 0 "R5" V 4943 4300 50  0000 C CNN
+F 1 "6.8k" V 5034 4300 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 5080 4300 50  0001 C CNN
+F 3 "" H 5150 4300 50  0000 C CNN
+	1    5150 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 586D51F4
+P 5100 5400
+F 0 "R4" V 5200 5600 50  0000 C CNN
+F 1 "6.8k" V 5300 5650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 5030 5400 50  0001 C CNN
+F 3 "" H 5100 5400 50  0000 C CNN
+	1    5100 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 586D648C
+P 4400 3950
+F 0 "R2" V 4193 3950 50  0000 C CNN
+F 1 "15k" V 4284 3950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 4330 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0000 C CNN
+	1    4400 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 586D6521
+P 4400 5000
+F 0 "R3" V 4193 5000 50  0000 C CNN
+F 1 "15k" V 4284 5000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 4330 5000 50  0001 C CNN
+F 3 "" H 4400 5000 50  0000 C CNN
+	1    4400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 586D5EAA
+P 5050 3500
+F 0 "#PWR04" H 5050 3350 50  0001 C CNN
+F 1 "VCC" H 5067 3673 50  0000 C CNN
+F 2 "" H 5050 3500 50  0000 C CNN
+F 3 "" H 5050 3500 50  0000 C CNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 586D662F
+P 4900 4400
+F 0 "#PWR03" H 4900 4150 50  0001 C CNN
+F 1 "GND" H 4905 4227 50  0000 C CNN
+F 2 "" H 4900 4400 50  0000 C CNN
+F 3 "" H 4900 4400 50  0000 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 3550 0    60   Input ~ 0
+VREF1
+$Comp
+L VCC #PWR01
+U 1 1 586E9910
+P 1300 8700
+F 0 "#PWR01" H 1300 8550 50  0001 C CNN
+F 1 "VCC" H 1317 8873 50  0000 C CNN
+F 2 "" H 1300 8700 50  0000 C CNN
+F 3 "" H 1300 8700 50  0000 C CNN
+	1    1300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 586E997B
+P 1300 9800
+F 0 "#PWR02" H 1300 9550 50  0001 C CNN
+F 1 "GND" H 1305 9627 50  0000 C CNN
+F 2 "" H 1300 9800 50  0000 C CNN
+F 3 "" H 1300 9800 50  0000 C CNN
+	1    1300 9800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 9250 2    60   Input ~ 0
+POT1
+Text GLabel 2050 9250 2    60   Input ~ 0
+POT2
+Text Notes 6250 -250 0    40   ~ 0
+Focus: +1.1 mm / -0.7 mm\n0.80 mm/V (positiv = aproach disk)\n\nTracking: ±0.4 mm\n0.60 mm/V (positv = periphery  of disk)\n\nImax 220 mA
+Text Notes 6200 200  0    60   ~ 0
+1.375V / -0.875V   1/1.8181\n ±0.67 V  / 1/3.7313
+$Comp
+L MCP6002 U2
+U 1 1 586E7DE9
+P 6800 4300
+F 0 "U2" H 6850 4650 50  0000 L CNN
+F 1 "MCP6002" H 6850 4550 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SOIC-08_N" H 6700 4350 50  0001 C CNN
+F 3 "" H 6800 4450 50  0000 C CNN
+	1    6800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q1
+U 1 1 586E8943
+P 7800 4300
+F 0 "Q1" H 7750 4450 50  0000 L CNN
+F 1 "Q_NMOS_GDS" V 8050 4050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2Lead" H 8000 4400 50  0001 C CNN
+F 3 "" H 7800 4300 50  0000 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 586E9462
+P 7900 4850
+F 0 "R10" V 8015 4850 50  0000 C CNN
+F 1 "10" V 8106 4850 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 7830 4850 50  0001 C CNN
+F 3 "" H 7900 4850 50  0000 C CNN
+	1    7900 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 586E9604
+P 7900 5050
+F 0 "#PWR09" H 7900 4800 50  0001 C CNN
+F 1 "GND" H 7905 4877 50  0000 C CNN
+F 2 "" H 7900 5050 50  0000 C CNN
+F 3 "" H 7900 5050 50  0000 C CNN
+	1    7900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 586E9762
+P 6150 4250
+F 0 "R6" V 6265 4250 50  0000 C CNN
+F 1 "8.2k" V 6356 4250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 6080 4250 50  0001 C CNN
+F 3 "" H 6150 4250 50  0000 C CNN
+	1    6150 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 3800 0    60   Input ~ 0
+I_LASER
+$Comp
+L R R7
+U 1 1 586EBBFF
+P 6150 4650
+F 0 "R7" V 6265 4650 50  0000 C CNN
+F 1 "1.8k" V 6356 4650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 6080 4650 50  0001 C CNN
+F 3 "" H 6150 4650 50  0000 C CNN
+	1    6150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 586EBF9A
+P 6150 5050
+F 0 "#PWR06" H 6150 4800 50  0001 C CNN
+F 1 "GND" H 6155 4877 50  0000 C CNN
+F 2 "" H 6150 5050 50  0000 C CNN
+F 3 "" H 6150 5050 50  0000 C CNN
+	1    6150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 586EC775
+P 7400 4650
+F 0 "R9" V 7515 4650 50  0000 C CNN
+F 1 "10k" V 7606 4650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 7330 4650 50  0001 C CNN
+F 3 "" H 7400 4650 50  0000 C CNN
+	1    7400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 586ECFD5
+P 7400 4300
+F 0 "R8" V 7200 4300 50  0000 C CNN
+F 1 "100" V 7300 4300 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 7330 4300 50  0001 C CNN
+F 3 "" H 7400 4300 50  0000 C CNN
+	1    7400 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 586ED828
+P 7200 4500
+F 0 "C3" H 6950 4550 50  0000 L CNN
+F 1 "1nF" H 7350 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7200 4500 50  0001 C CNN
+F 3 "" H 7200 4500 50  0000 C CNN
+	1    7200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 586F2608
+P 6700 5050
+F 0 "#PWR08" H 6700 4800 50  0001 C CNN
+F 1 "GND" H 6705 4877 50  0000 C CNN
+F 2 "" H 6700 5050 50  0000 C CNN
+F 3 "" H 6700 5050 50  0000 C CNN
+	1    6700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 586F2984
+P 6700 3900
+F 0 "#PWR07" H 6700 3750 50  0001 C CNN
+F 1 "VCC" H 6717 4073 50  0000 C CNN
+F 2 "" H 6700 3900 50  0000 C CNN
+F 3 "" H 6700 3900 50  0000 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 586FB4AC
+P 3650 9400
+F 0 "D1" V 3688 9283 50  0000 R CNN
+F 1 "LED" V 3597 9283 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0805" H 3650 9400 50  0001 C CNN
+F 3 "" H 3650 9400 50  0000 C CNN
+	1    3650 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 586FF60A
+P 3650 9000
+F 0 "R1" V 3765 9000 50  0000 C CNN
+F 1 "470" V 3856 9000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" V 3580 9000 50  0001 C CNN
+F 3 "" H 3650 9000 50  0000 C CNN
+	1    3650 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCA0372_DWG U1
+U 1 1 5873BA74
+P 5150 3850
+F 0 "U1" H 5350 4100 50  0000 L CNN
+F 1 "TCA0372_DWG" H 5350 4000 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SO-16-W" H 5150 3450 50  0001 C CNN
+F 3 "" H 5150 4050 50  0000 C CNN
+	1    5150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCA0372_DWG U1
+U 2 1 5873DA8D
+P 5150 4900
+F 0 "U1" H 5450 5150 50  0000 L CNN
+F 1 "TCA0372_DWG" H 5450 5050 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SO-16-W" H 5200 4700 50  0001 C CNN
+F 3 "" H 5150 5100 50  0000 C CNN
+	2    5150 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 4700 0    60   ~ 0
+180k
+Connection ~ 5550 5150
+Connection ~ 4800 3750
+Wire Wire Line
+	4600 3550 4800 3550
+Wire Wire Line
+	4800 3750 4850 3750
+Wire Wire Line
+	4800 3550 4800 4800
+Wire Wire Line
+	4800 4800 4850 4800
+Wire Wire Line
+	4900 4150 4900 4400
+Wire Wire Line
+	5050 4150 4900 4150
+Wire Wire Line
+	5050 3500 5050 3550
+Wire Wire Line
+	5550 4900 5550 5400
+Wire Wire Line
+	5450 4900 5550 4900
+Connection ~ 5550 4050
+Connection ~ 4700 5000
+Connection ~ 4700 3950
+Wire Wire Line
+	5550 3850 5450 3850
+Wire Wire Line
+	5550 3850 5550 4300
+Wire Wire Line
+	5550 4300 5300 4300
+Wire Wire Line
+	4700 4300 5000 4300
+Wire Wire Line
+	4700 3950 4700 4300
+Wire Wire Line
+	4550 3950 4850 3950
+Wire Wire Line
+	4700 5400 4950 5400
+Wire Wire Line
+	4700 5000 4700 5400
+Wire Wire Line
+	4550 5000 4850 5000
+Wire Wire Line
+	5550 5400 5250 5400
+Wire Wire Line
+	1300 9550 1300 9800
+Connection ~ 1300 9650
+Wire Wire Line
+	1900 9650 1900 9550
+Connection ~ 1900 9650
+Wire Wire Line
+	1300 8700 1300 9250
+Connection ~ 1300 9150
+Wire Wire Line
+	1900 9250 1900 9150
+Connection ~ 1900 9150
+Wire Wire Line
+	1450 9250 1450 9400
+Wire Wire Line
+	2050 9250 2050 9400
+Wire Wire Line
+	7900 4500 7900 4700
+Connection ~ 7900 4650
+Wire Wire Line
+	6500 4650 7250 4650
+Wire Wire Line
+	6500 4650 6500 4400
+Wire Wire Line
+	6400 4200 6500 4200
+Wire Wire Line
+	6150 4800 6150 5050
+Wire Wire Line
+	6150 4450 6400 4450
+Wire Wire Line
+	6150 4400 6150 4500
+Connection ~ 6150 4450
+Wire Wire Line
+	7900 4650 7550 4650
+Wire Wire Line
+	7100 4300 7250 4300
+Wire Wire Line
+	7550 4300 7600 4300
+Wire Wire Line
+	7200 4300 7200 4400
+Connection ~ 7200 4300
+Wire Wire Line
+	7200 4600 7200 4650
+Connection ~ 7200 4650
+Wire Wire Line
+	6700 4600 6700 5050
+Wire Wire Line
+	6700 3900 6700 4000
+Wire Wire Line
+	6400 4450 6400 4200
+Wire Wire Line
+	7900 5000 7900 5050
+Wire Wire Line
+	7850 3800 7900 3800
+Wire Wire Line
+	7900 3800 7900 4100
+Wire Wire Line
+	3650 9650 3650 9550
+Wire Wire Line
+	3650 9250 3650 9150
+$Comp
+L VCC #PWR05
+U 1 1 592C4E74
+P 5750 4550
+F 0 "#PWR05" H 5750 4400 50  0001 C CNN
+F 1 "VCC" H 5767 4723 50  0000 C CNN
+F 2 "" H 5750 4550 50  0000 C CNN
+F 3 "" H 5750 4550 50  0000 C CNN
+	1    5750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4550 5050 4550
+Wire Wire Line
+	5050 4550 5050 4600
+$Comp
+L C_Small C1
+U 1 1 592C0CA6
+P 4350 9400
+F 0 "C1" H 4100 9450 50  0000 L CNN
+F 1 "100n" H 4450 9550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4350 9400 50  0001 C CNN
+F 3 "" H 4350 9400 50  0000 C CNN
+	1    4350 9400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 9650
+Wire Wire Line
+	4350 9650 4350 9500
+Connection ~ 3650 8850
+Wire Wire Line
+	4350 8850 4350 9300
+Wire Wire Line
+	3100 8850 4450 8850
+Wire Wire Line
+	1300 9150 3100 9150
+Wire Wire Line
+	1300 9650 4350 9650
+Wire Wire Line
+	3100 9150 3100 8850
+Text GLabel 4150 3950 0    60   Input ~ 0
+POT1
+Text GLabel 4150 5000 0    60   Input ~ 0
+POT2
+$Comp
+L POT RV3
+U 1 1 59CEEAD7
+P 2700 9400
+F 0 "RV3" H 2630 9446 50  0000 R CNN
+F 1 "POT" H 2630 9355 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POT_OvalPads" H 2700 9400 50  0001 C CNN
+F 3 "" H 2700 9400 50  0000 C CNN
+	1    2700 9400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2700 9250 2700 9150
+Connection ~ 2700 9150
+Wire Wire Line
+	2700 9550 2700 9650
+Connection ~ 2700 9650
+Text GLabel 2950 9250 2    60   Input ~ 0
+POT3
+Wire Wire Line
+	2950 9250 2850 9250
+Wire Wire Line
+	2850 9250 2850 9400
+Text GLabel 6000 3550 0    60   Input ~ 0
+POT3
+Wire Wire Line
+	6150 3550 6150 4100
+$Comp
+L PAD X12
+U 1 1 59D2265B
+P 8100 3850
+F 0 "X12" H 7950 4000 60  0000 L CNN
+F 1 "I_LASER" H 7750 4100 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 8100 3850 60  0001 C CNN
+F 3 "" H 8100 3850 60  0001 C CNN
+	1    8100 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 3850
+$Comp
+L PAD X10
+U 1 1 59D22B94
+P 5750 4050
+F 0 "X10" H 5750 4200 60  0000 L CNN
+F 1 "OUT1" H 5750 3950 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 5750 4050 60  0001 C CNN
+F 3 "" H 5750 4050 60  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PAD X11
+U 1 1 59D22DE4
+P 5750 5150
+F 0 "X11" H 5800 5300 60  0000 L CNN
+F 1 "OUT2" H 5750 5000 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 5750 5150 60  0001 C CNN
+F 3 "" H 5750 5150 60  0001 C CNN
+	1    5750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PAD X5
+U 1 1 59D23781
+P 1700 8800
+F 0 "X5" H 1819 8868 60  0000 L CNN
+F 1 "VCC" H 1819 8762 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 1700 8800 60  0001 C CNN
+F 3 "" H 1700 8800 60  0001 C CNN
+	1    1700 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 8800 1300 8800
+Connection ~ 1300 8800
+$Comp
+L PAD X7
+U 1 1 59D240E6
+P 1700 10150
+F 0 "X7" H 1819 10218 60  0000 L CNN
+F 1 "GND" H 1819 10112 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 1700 10150 60  0001 C CNN
+F 3 "" H 1700 10150 60  0001 C CNN
+	1    1700 10150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 8850
+$Comp
+L PAD X6
+U 1 1 59D246EB
+P 4450 4450
+F 0 "X6" H 4600 4450 60  0000 L CNN
+F 1 "REF" H 4550 4200 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 4450 4450 60  0001 C CNN
+F 3 "" H 4450 4450 60  0001 C CNN
+	1    4450 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 9650 1600 10150
+Connection ~ 1600 9650
+$Comp
+L PAD X8
+U 1 1 59D2549B
+P 4450 4550
+F 0 "X8" H 4600 4550 60  0000 L CNN
+F 1 "REF" H 4550 4200 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 4450 4550 60  0001 C CNN
+F 3 "" H 4450 4550 60  0001 C CNN
+	1    4450 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L PAD X9
+U 1 1 59D255F4
+P 4550 8850
+F 0 "X9" H 4669 8918 60  0000 L CNN
+F 1 "+5V" H 4669 8812 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 4550 8850 60  0001 C CNN
+F 3 "" H 4550 8850 60  0001 C CNN
+	1    4550 8850
+	1    0    0    -1  
+$EndComp
+Text Notes 12250 2650 0    60   ~ 0
+Corrections:\nLaserpad +5V statt GND\nRichtung der Potis kehren\nRefPoint an IC\nGND Pads as Refpoints\n
+$Comp
+L PAD X13
+U 1 1 59D2D300
+P 4450 4350
+F 0 "X13" H 4600 4350 60  0000 L CNN
+F 1 "REF" H 4550 4200 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PAD_SMD_3mm" H 4450 4350 60  0001 C CNN
+F 3 "" H 4450 4350 60  0001 C CNN
+	1    4450 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3950 4250 3950
+Wire Wire Line
+	4150 5000 4250 5000
+Wire Wire Line
+	5650 4050 5550 4050
+Wire Wire Line
+	5650 5150 5550 5150
+Wire Wire Line
+	8000 3850 7900 3850
+Wire Wire Line
+	4550 4350 4800 4350
+Connection ~ 4800 4350
+Wire Wire Line
+	4550 4450 4800 4450
+Connection ~ 4800 4450
+Wire Wire Line
+	4550 4550 4800 4550
+Connection ~ 4800 4550
+Wire Wire Line
+	6000 3550 6150 3550
+$EndSCHEMATC
